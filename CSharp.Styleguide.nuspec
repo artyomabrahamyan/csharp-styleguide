@@ -12,6 +12,5 @@
   <files>
     <file src="StyleCop.ruleset" target="" />
     <file src="CSharp.Styleguide.Fork.props" target="build" />
-	<file src = ".editorconfig" target ="" />
   </files>
 </package>
