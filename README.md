@@ -1,5 +1,4 @@
 # C# Styleguide
-[![Travis CI](https://img.shields.io/travis/mdmsua/csharp-styleguide.svg)](https://travis-ci.org/mdmsua/csharp-styleguide)
 [![NuGet](https://img.shields.io/nuget/v/CSharp.Styleguide.svg)](https://www.nuget.org/packages/CSharp.Styleguide)
 [![NuGet](https://img.shields.io/nuget/dt/CSharp.Styleguide.svg)](https://www.nuget.org/stats/packages/CSharp.Styleguide)
 
