@@ -4,8 +4,8 @@
 
 ## StyleCop ruleset for C#
 
-## Build C# Styleguide
-- Run build.ps1 script.
+## Windows Build C# Styleguide:
+- Powershell run build.ps1 script.
 
 ### Readability Rules:
 - [x] [SA1100](https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1100.md)

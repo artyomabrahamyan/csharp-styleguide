@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PackageName>CSharp.Styleguide.Fork</PackageName>
-    <PackageVersion>2020.7.25.1635-rc</PackageVersion>
+    <PackageVersion>2020.7.25.1643-rc</PackageVersion>
   </PropertyGroup>
   <PropertyGroup>
     <CodeAnalysisRuleSetLocation Condition=" '$(NuGetPackageRoot)' != '' ">$(NuGetPackageRoot)$(PackageName)\$(PackageVersion)</CodeAnalysisRuleSetLocation>
