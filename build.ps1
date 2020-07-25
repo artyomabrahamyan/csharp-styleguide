@@ -1,1 +1,1 @@
-nuget pack CSharp.Styleguide.nuspec -Version 1.0.0 -OutputDirectory ./nuget
+nuget pack CSharp.Styleguide.nuspec -Version (Get-Date).ToString("yyyy.MM.dd.HHmm") -OutputDirectory ./nuget
