@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuspecFile>CSharp.Styleguide.Fork.nuspec</NuspecFile>
+	<NuspecProperties>version=$(PackageVersion)</NuspecProperties> 
+  </PropertyGroup>
+</Project>

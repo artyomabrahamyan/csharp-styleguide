@@ -1,6 +1,6 @@
-$Version = "$((Get-Date).ToString('yyyy.M.dd.HHmm'))-rc";
+$Version = "$((Get-Date).ToString('yyyy.M.d.Hmm'))-rc";
 $propsDir = "./CSharp.Styleguide.Fork.props"
 [xml]$xml = Get-Content $propsDir;
 $xml.Project.PropertyGroup[0].PackageVersion = $Version;
 $xml.Save("$pwd\$propsDir");
-nuget pack -Version $Version -OutputDirectory ./nuget;
+dotnet pack -p:PackageVersion=$Version -p:NoBuild=true -o nuget;
